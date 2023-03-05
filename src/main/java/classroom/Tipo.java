@@ -6,6 +6,14 @@ public enum Tipo {
 	private int codigo;
 	
 	private Tipo(int codigo) {
+		this.setCodigo(codigo);
+	}
+
+	public int getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(int codigo) {
 		this.codigo = codigo;
 	}
 }
